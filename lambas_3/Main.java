@@ -23,7 +23,7 @@ public class Main {
         numbers.forEach(t -> { System.out.println("a: " + t.a + ", b: " + t.b + ", c: " + t.c); });
 
         // Can also be written as:
-        // Again, "For all numbers that are in the array, do this function", but instead of defining the lambda (which is a function) we are directly telling "forEach" which function to use (because the SomeFunction function takes 1 int argument)
+        // Again, "For all numbers that are in the array, do this function", but instead of defining the lambda (which is a function) we are directly telling "forEach" which function to use (because the SomeFunction function takes 1 Tuple argument)
         numbers.forEach(Main::SomeFunction);
     }
 
