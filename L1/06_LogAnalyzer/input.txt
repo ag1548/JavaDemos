@@ -1,0 +1,5 @@
+INFO User login success
+WARN API response slow
+ERROR Payment failed for user 102
+ERROR Payment failed for user 103
+END
