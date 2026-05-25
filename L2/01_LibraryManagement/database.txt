@@ -1,0 +1,6 @@
+[books]
+9780134685991 effective_java bloch9780134685992 poor_java black
+[members]
+m1 alicec1 cecile
+[loans]
+9780134685991 m1 Mon Jun 01 00:00:00 CDT 20269780134685992 c1 Tue Jun 02 00:00:00 CDT 2026

@@ -1,0 +1,99 @@
+------------------------------
+Available commands:
+	- list-books
+	- exit
+	- loan
+	- list-loans
+	- find-book
+	- add-member
+	- add-book
+	- return
+------------------------------
+LIB MGR >>> list-books
+------------------------------
+Available commands:
+	- list-books
+	- exit
+	- loan
+	- list-loans
+	- find-book
+	- add-member
+	- add-book
+	- return
+------------------------------
+LIB MGR >>> add-book 9780134685991 Effective_Java Bloch
+------------------------------
+Available commands:
+	- list-books
+	- exit
+	- loan
+	- list-loans
+	- find-book
+	- add-member
+	- add-book
+	- return
+------------------------------
+LIB MGR >>> add-member M1 Alice
+------------------------------
+Available commands:
+	- list-books
+	- exit
+	- loan
+	- list-loans
+	- find-book
+	- add-member
+	- add-book
+	- return
+------------------------------
+LIB MGR >>> loan 9780134685991 M1 2026-06-01
+------------------------------
+Available commands:
+	- list-books
+	- exit
+	- loan
+	- list-loans
+	- find-book
+	- add-member
+	- add-book
+	- return
+------------------------------
+LIB MGR >>> list-loans
+9780134685991         m1 Mon Jun 01 00:00:00 CDT 2026
+------------------------------
+Available commands:
+	- list-books
+	- exit
+	- loan
+	- list-loans
+	- find-book
+	- add-member
+	- add-book
+	- return
+------------------------------
+LIB MGR >>> return 9780134685991
+Returned book successfully.
+------------------------------
+Available commands:
+	- list-books
+	- exit
+	- loan
+	- list-loans
+	- find-book
+	- add-member
+	- add-book
+	- return
+------------------------------
+LIB MGR >>> list-loans
+------------------------------
+Available commands:
+	- list-books
+	- exit
+	- loan
+	- list-loans
+	- find-book
+	- add-member
+	- add-book
+	- return
+------------------------------
+LIB MGR >>> exit
+LIB MGR DONE

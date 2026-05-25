@@ -1,0 +1,21 @@
+Exercise Example
+================
+list-books
+add-book 9780134685991 Effective_Java Bloch
+add-member M1 Alice
+loan 9780134685991 M1 2026-06-01
+list-loans
+return 9780134685991
+list-loans
+exit
+
+Persisting to Disk
+==================
+add-book 9780134685991 Effective_Java Bloch
+add-member M1 Alice
+add-book 9780134685992 Poor_Java Black
+add-member C1 Cecile
+loan 9780134685991 M1 2026-06-01
+loan 9780134685992 C1 2026-06-02
+persist
+exit

@@ -1,0 +1,117 @@
+------------------------------
+Available commands:
+	- list-books
+	- exit
+	- loan
+	- list-loans
+	- find-book
+	- add-member
+	- add-book
+	- persist
+	- return
+------------------------------
+LIB MGR >>> add-book 9780134685991 Effective_Java Bloch
+------------------------------
+Available commands:
+	- list-books
+	- exit
+	- loan
+	- list-loans
+	- find-book
+	- add-member
+	- add-book
+	- persist
+	- return
+------------------------------
+LIB MGR >>> add-member M1 Alice
+------------------------------
+Available commands:
+	- list-books
+	- exit
+	- loan
+	- list-loans
+	- find-book
+	- add-member
+	- add-book
+	- persist
+	- return
+------------------------------
+LIB MGR >>> add-book 9780134685992 Poor_Java Black
+------------------------------
+Available commands:
+	- list-books
+	- exit
+	- loan
+	- list-loans
+	- find-book
+	- add-member
+	- add-book
+	- persist
+	- return
+------------------------------
+LIB MGR >>> add-member C1 Cecile
+------------------------------
+Available commands:
+	- list-books
+	- exit
+	- loan
+	- list-loans
+	- find-book
+	- add-member
+	- add-book
+	- persist
+	- return
+------------------------------
+LIB MGR >>> loan 9780134685991 M1 2026-06-01
+------------------------------
+Available commands:
+	- list-books
+	- exit
+	- loan
+	- list-loans
+	- find-book
+	- add-member
+	- add-book
+	- persist
+	- return
+------------------------------
+LIB MGR >>> loan 9780134685992 C1 2026-06-02
+------------------------------
+Available commands:
+	- list-books
+	- exit
+	- loan
+	- list-loans
+	- find-book
+	- add-member
+	- add-book
+	- persist
+	- return
+------------------------------
+LIB MGR >>> persist
+[books]
+9780134685991 effective_java bloch
+9780134685992 poor_java black
+
+[members]
+m1 alice
+c1 cecile
+
+[loans]
+9780134685991 m1 Mon Jun 01 00:00:00 CDT 2026
+9780134685992 c1 Tue Jun 02 00:00:00 CDT 2026
+
+------------------------------
+Available commands:
+	- list-books
+	- exit
+	- loan
+	- list-loans
+	- find-book
+	- add-member
+	- add-book
+	- persist
+	- return
+------------------------------
+LIB MGR >>> exit
+LIB MGR DONE
